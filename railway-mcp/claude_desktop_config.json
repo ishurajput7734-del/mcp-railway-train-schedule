@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "railway-assistant": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcp.server.fastmcp",
+        "run",
+        "/ABSOLUTE/PATH/TO/railway-mcp/server.py"
+      ],
+      "env": {
+        "RAILWAY_DATA_PROVIDER": "local",
+        "LOG_LEVEL": "INFO"
+      }
+    }
+  }
+}
